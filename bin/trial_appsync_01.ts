@@ -4,7 +4,7 @@ import * as cdk from 'aws-cdk-lib';
 import { TrialAppsync01Stack } from '../lib/trial_appsync_01-stack';
 
 const app = new cdk.App();
-new TrialAppsync01Stack(app, 'TrialAppsync01Stack', {
+new TrialAppsync01Stack(app, 'CmNatsumeTrialAppsync01Stack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

@@ -1,0 +1,17 @@
+type Model {
+  itemId: ID!
+  name: String
+  relId: ID
+  relModelVTL: Model
+  relModelJS: Model
+}
+
+type Query {
+  getModel(itemId: ID!): Model
+  getModelJS(itemId: ID!): Model
+  getModelSpec3(itemId: ID!): Model
+}
+
+schema {
+  query: Query
+}
